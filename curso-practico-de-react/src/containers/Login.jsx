@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from "../assets/favicon_yard_sale.svg"
+import {ReactComponent as Logo} from "../assets/favicon_yard_sale.svg"
 import "../styles/Login.css"
 
 const Login = () => {
 	return (
 		<div className="login">
 			<div className="form-container">
-				<img src={logo} alt="logo" className="logo" />
+				<Logo  alt="logo" className="logo" />
 				<h1 className="title">Create a new password</h1>
 				<p className="subtitle">Enter a new passwrd for yue account</p>
 				<form action="/" className="form">
