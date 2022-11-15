@@ -1,6 +1,6 @@
 import React from 'react';
 import {ReactComponent as Logo} from "../assets/favicon_yard_sale.svg"
-import "../styles/Login.css"
+import "../styles/Login.scss"
 
 const Login = () => {
 	return (
